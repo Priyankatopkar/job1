@@ -5,7 +5,7 @@ pipeline {
 			}
 		}
 		stages {
-		stage ('install-httpd') {
+		stage ('install-httpd1') {
 			steps {
 			sh "yum install httpd -y"
 			}
